@@ -1,0 +1,36 @@
+{
+  "name": "red-onion-server",
+  "version": "1.0.0",
+  "description": "this api build for red onion restaurant website",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node server.js"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "keywords": [
+    "red",
+    "onion",
+    "restaurant",
+    "app"
+  ],
+  "author": "Tumpa Dey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tumpadey/red-onion-restaurant-server-site"
+  },
+  "homepage": "https://github.com/tumpadey/red-onion-restaurant-server-site",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.7"
+  },
+  "engines": {
+    "node": "v10.16.0"
+  },
+  "devDependencies": {}
+}
